@@ -25,7 +25,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -am "Update README with Snake"
+          git config --local user.email "igorcostaa98@gmail.com"
+          git config --local user.name "Igooram"
+          git add .
+          git commit -m "Update README with Snake"
           git push
